@@ -1,4 +1,4 @@
-## readme
+## Readme
 Thanks [Benjamin Ricaud](https://github.com/bricaud/graphexp) and [Armand LEOPOLD](https://github.com/erandal/graphexp).
 This feature is merged through the two projects above. We can find <b>vertex properties</b> when clicking on the vertex.
 
