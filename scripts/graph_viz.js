@@ -116,7 +116,7 @@ var graph_viz = (function () {
 		_svg.selectAll("*").remove();
 		_Nodes = [], _Links = [];
 		layers.clear_old();
-		_simulation = {};
+        _simulation = {};
 	}
 
 
@@ -400,8 +400,10 @@ var graph_viz = (function () {
 		var _nodes = node_deco.merge(all_nodes);
 
 
-
-
+		var focus_node_data = d3.select(".focus_node").data();
+		if (focus_node_data.length > 0){
+			infobox.display_info(focus_node_data[0]);
+		}
 		//////////////////////////////////
 		// Additional clean up
 		graphShapes.decorate_old_elements(layers.depth());
@@ -533,8 +535,8 @@ var graph_viz = (function () {
 				_svg.selectAll(".old_edge" + stop_layer).remove();
 				_svg.selectAll(".old_edgepath" + stop_layer).remove();
 				_svg.selectAll(".old_edgelabel" + stop_layer).remove();
-				infobox.display_info(d);
 				graphioGremlin.click_query(d);
+				//infobox.display_info(d);
 				console.log('event!!')
 			}
 		}

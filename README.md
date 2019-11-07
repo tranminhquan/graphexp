@@ -1,6 +1,10 @@
+## readme
+Thanks [Benjamin Ricaud](https://github.com/bricaud/graphexp) and [Armand LEOPOLD](https://github.com/erandal/graphexp).
+This feature is merged through the two projects above. We can find <b>vertex properties</b> when clicking on the vertex.
+
 # Graphexp: graph explorer with D3.js
 
-Graphexp is a lightweight web interface to explore and display a graph stored in a Gremlin graph database, via the Gremlin server (version 3.2.x or 3.3.x) .
+Graphexp is a lightweight web interface to explore and display a graph stored in a Gremlin graph database, via the Gremlin server (version 3.2.x, 3.3.x or 3.4) .
 
 Graphexp is under the Apache 2.0 license.
 
