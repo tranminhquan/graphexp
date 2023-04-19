@@ -3,7 +3,7 @@
 
 // if host is set, will override default localhost server option
 //const host = "some_gremlin_server"
-const host = false;
+const host = "113.161.34.240";
 
 // For implementations like Neptune where only single commands are allowed per request
 // set to true
